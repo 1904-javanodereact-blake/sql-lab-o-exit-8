@@ -57,9 +57,8 @@ SELECT * FROM invoice WHERE total BETWEEN 15 AND 50;
 SELECT * FROM employee WHERE hiredate BETWEEN 01/06/2003 AND 01/03/2004
 // since it hiredate has a timestamp I cannot get the records
 //2.7 DELETE
-Task – Delete a record in Customer table where the name is Robert Walter (There may be constraints that rely on this, find out how to resolve them).
-
-
+//Task – Delete a record in Customer table where the name is Robert Walter (There may be constraints that rely on this, find out how to resolve them).
+DELETE FROM customer WHERE firstname ='Robert' AND lastname = 'Walter';
 //SQL Functions
 //In this section you will be using the Oracle system functions, as well as your own functions, to perform various actions against the database
 //3.1 System Defined Functions
